@@ -1,0 +1,11 @@
+
+  1,200 nodes, 5,877 edges, density 0.4081%
+
+  baseline      1.07s   floats held    1,440,000   sum 1.000000
+  yours         0.02s   floats held        9,477   sum 1.000000   worst diff 1.18e-15
+
+   ok    ranks match to 1e-9
+     64.4x faster     151.9x less memory
+
+   -> strong
+
