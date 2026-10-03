@@ -1,0 +1,90 @@
+{
+  "runs": [
+    {
+      "n": 250,
+      "brute_s": 0.2824747999984538,
+      "brute_calls": 31125,
+      "brute_peak_bytes": 8744,
+      "lsh_s": 0.5273113000002922,
+      "lsh_calls": 15,
+      "lsh_peak_bytes": 1380040
+    },
+    {
+      "n": 500,
+      "brute_s": 1.097141799997189,
+      "brute_calls": 124750,
+      "brute_peak_bytes": 9352,
+      "lsh_s": 1.0374207999993814,
+      "lsh_calls": 29,
+      "lsh_peak_bytes": 2771128
+    },
+    {
+      "n": 1000,
+      "brute_s": 4.343195800000103,
+      "brute_calls": 499500,
+      "brute_peak_bytes": 12360,
+      "lsh_s": 2.198468000002322,
+      "lsh_calls": 57,
+      "lsh_peak_bytes": 5556968
+    },
+    {
+      "n": 2000,
+      "brute_s": 18.34693590000097,
+      "brute_calls": 1999000,
+      "brute_peak_bytes": 21576,
+      "lsh_s": 4.332960899992031,
+      "lsh_calls": 116,
+      "lsh_peak_bytes": 11127496
+    },
+    {
+      "n": 4000,
+      "brute_s": 81.9295887999906,
+      "brute_calls": 7998000,
+      "brute_peak_bytes": 43944,
+      "lsh_s": 8.311938600003486,
+      "lsh_calls": 239,
+      "lsh_peak_bytes": 22418168
+    },
+    {
+      "n": 350,
+      "brute_s": 0.5612213999993401,
+      "brute_calls": 61075,
+      "brute_peak_bytes": 10160,
+      "lsh_s": 0.769468099999358,
+      "lsh_calls": 20,
+      "lsh_peak_bytes": 1949248
+    },
+    {
+      "n": 400,
+      "brute_s": 0.7253148999880068,
+      "brute_calls": 79800,
+      "brute_peak_bytes": 9352,
+      "lsh_s": 0.8740205000067363,
+      "lsh_calls": 22,
+      "lsh_peak_bytes": 2219952
+    },
+    {
+      "n": 450,
+      "brute_s": 0.9334165000036592,
+      "brute_calls": 101025,
+      "brute_peak_bytes": 9352,
+      "lsh_s": 1.0226984000037191,
+      "lsh_calls": 25,
+      "lsh_peak_bytes": 2494096
+    },
+    {
+      "n": 600,
+      "brute_s": 1.6540907000016887,
+      "brute_calls": 179700,
+      "brute_peak_bytes": 9352,
+      "lsh_s": 1.2543723999988288,
+      "lsh_calls": 33,
+      "lsh_peak_bytes": 3324512
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "python": "3.14.3"
+  }
+}
