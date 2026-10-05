@@ -1,0 +1,59 @@
+{
+  "runs": [
+    {
+      "n": 100000,
+      "true_distinct": 36702,
+      "exact_s": 0.26947280000058527,
+      "exact_peak_bytes": 3925492,
+      "fm_estimate": 52603.77893602043,
+      "fm_s": 1.1803741000003356,
+      "fm_peak_bytes": 5430,
+      "fm_ratio": 1.433267367882416
+    },
+    {
+      "n": 400000,
+      "true_distinct": 146970,
+      "exact_s": 1.1678238999993482,
+      "exact_peak_bytes": 11591174,
+      "fm_estimate": 231957.95886097915,
+      "fm_s": 4.417307799998525,
+      "fm_peak_bytes": 4041,
+      "fm_ratio": 1.5782673937604896
+    },
+    {
+      "n": 1600000,
+      "true_distinct": 587625,
+      "exact_s": 4.984832300000562,
+      "exact_peak_bytes": 46647456,
+      "fm_estimate": 656076.1826431544,
+      "fm_s": 17.34968579999986,
+      "fm_peak_bytes": 3953,
+      "fm_ratio": 1.116487866655017
+    },
+    {
+      "n": 6400000,
+      "true_distinct": 2349909,
+      "exact_s": 20.648414799999955,
+      "exact_peak_bytes": 188287414,
+      "fm_estimate": 2206768.440471879,
+      "fm_s": 68.6430990000008,
+      "fm_peak_bytes": 3972,
+      "fm_ratio": 0.9390867648372253
+    },
+    {
+      "n": 25000000,
+      "true_distinct": 9179304,
+      "exact_s": 84.76761830000032,
+      "exact_peak_bytes": 744742556,
+      "fm_estimate": 9419727.031064523,
+      "fm_s": 272.4081275000008,
+      "fm_peak_bytes": 5340,
+      "fm_ratio": 1.026191858452942
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "python": "3.14.3"
+  }
+}
