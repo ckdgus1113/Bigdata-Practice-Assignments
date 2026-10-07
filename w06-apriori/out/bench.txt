@@ -1,0 +1,11 @@
+
+  20,000 baskets, 2,000 items, support 50
+
+  baseline     pairs  6397   peak counters    820,259     2.57s   -
+  yours        pairs  6397   peak counters     23,356     2.88s   missing 0, extra 0
+
+   ok    same frequent pairs
+   peak counters cut by 97.2%  (23,356 from 820,259)
+
+   -> strong
+
